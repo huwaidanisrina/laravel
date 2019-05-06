@@ -57,6 +57,6 @@ class MainController extends Controller
     {
     	Buku::where('id', $id)
     	->delete();
-    	return redirect('/')->with('info', 'Buku Sukses Dihapus!');
+    	return redirect('/')->with('info', 'Buku Sukses Dihapus! ');
     }
 }
