@@ -39,7 +39,7 @@ class MainController extends Controller
         'pengarang' => 'required'
     	]);
     	$data = array(
-    		'judul' =>$request->input('judul'),
+    		'judul' =>$request->input('judul '),
     		'penerbit' =>$request->input('penerbit'),
     		'tahun_terbit' =>$request->input('tahun_terbit'),
     		'pengarang' =>$request->input('pengarang')
